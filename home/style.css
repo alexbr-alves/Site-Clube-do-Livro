@@ -1,0 +1,159 @@
+header {
+    background: url("fundo.jpg");
+    padding: 20px 0;
+}
+body {
+    background: #D3D3D3;
+}
+.caixa {
+    position: relative;
+        width: 940px;
+        margin: 0 auto;
+}
+header img {
+    width: 220px;
+    height: 220px;
+}
+header h1{
+    text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+    padding: 10px 0 0 20px;
+}
+
+header nav ul {
+	position: absolute;
+	top: 235px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+header nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+header nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+header ul {
+    position: absolute;
+    display: inline block;
+}
+
+/*-----------------------------------------------Conteudo-----------------------------------------------*/
+
+.titulo-principal {
+    text-align: center;
+    margin: 10px 0 20px 0;
+    font-size: 30px;
+    font-weight: bold;  
+}
+section {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+section img {
+    width: 300px;
+	margin: 0 20px 20px 20px;
+    float: left;
+    top: 0%;
+}
+
+.descricao-lista{
+    padding-left: 20px;
+    font-size: 20px;
+   
+}
+.descricao-lista p1 {
+    font-weight: bold;
+}
+.descricao-lista p {
+    font-size: 20px;
+    padding: 0px 20px 7px 0 ; 
+}
+/*---------------------------------------comentarios---------------------------------------------*/
+.comentario-titulo {
+    text-align: center;
+    margin: 10px 0 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.campo-comentario {
+    width: 300px;
+    border: 1px solid grey;
+    margin: 20px 70px;
+    border-radius: 10px;
+    background: whitesmoke;
+    box-shadow: 5px 5px slategrey;
+    display: inline-block;
+    
+    
+}
+.campo-comentario:hover {
+    border: 1px solid #C78C19;
+}
+
+.campo-comentario p {
+    margin: 10px;
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    
+    
+}
+
+.campo-comentario p:hover {
+    color: brown;
+}
+
+
+
+/*-------------------------------------Próximos Livros-------------------------------------------*/
+
+.livro-e-titulo  {
+    padding: 20px;
+    display: inline-block;
+}
+
+.livro-e-titulo img{
+    width: 225px;
+}
+.livro-e-titulo h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+footer {
+	text-align: center;
+	padding: 40px 0;
+}
+
+footer img{
+    width: 80px;
+    height: 80px;
+    padding: 0 0 10px;
+}
+footer p {
+    font-weight: bold;
+}
+
+/*---------------------------------------Proximos Livros-----------------------------------------------------*/
+
+

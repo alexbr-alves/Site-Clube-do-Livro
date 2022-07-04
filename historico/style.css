@@ -1,0 +1,104 @@
+header {
+    background: url("fundo.jpg");
+    padding: 20px 0;
+}
+body {
+    background: #D3D3D3;
+}
+.caixa {
+    position: relative;
+        width: 940px;
+        margin: 0 auto;
+}
+header img {
+    width: 220px;
+    height: 220px;
+}
+header h1{
+    text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+    padding: 10px 0 0 20px;
+}
+
+header nav ul {
+	position: absolute;
+	top: 235px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+header nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+header nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+header ul {
+    position: absolute;
+    display: inline block;
+}
+
+/*-----------------------------------------------Conteudo-----------------------------------------------*/
+
+.titulo-principal {
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+    font-weight: bold;  
+}
+
+
+section {
+    margin-top: 30px;
+    height: 160px;
+}
+
+section img {
+    width: 100px;
+	margin: 0 20px 20px 20px;
+    float: left;
+    top: 0%;   
+}
+
+.lista {
+    display: inline;
+}
+.descricao-lista{
+    padding-left: 20px;
+    font-size: 20px; 
+}
+
+
+.descricao-lista p1 {
+    font-weight: bold;
+
+}
+
+footer {
+	text-align: center;
+	padding: 60px 0;
+
+}
+
+footer img{
+    width: 150px;
+    height: 150px;
+    padding: 0 0 10px;
+}
+footer p {
+    font-weight: bold;
+}
