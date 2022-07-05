@@ -1,0 +1,21 @@
+.proximosLivros__titulo {
+    text-align: center;
+    margin: 10px 0 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.proximosLivros__lista  {
+    padding: 20px;
+    display: inline-block;
+}
+
+.proximosLivros__imagem{
+    width: 225px;
+}
+.proximosLivros__tituloLivro {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}

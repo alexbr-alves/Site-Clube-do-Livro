@@ -54,15 +54,20 @@ header ul {
 
 /*-----------------------------------------------Conteudo-----------------------------------------------*/
 section {
-    width: 100%;
-    height: 500px;
-    padding-top: 100px;
+    position: relative;
+        width: 940px;
+        margin: 0 auto;
 }
 .titulo-principal {
     text-align: center;
-    margin: 10px 0 20px 0;
+    margin: 20px 0 20px 0;
     font-size: 30px;
     font-weight: bold;  
+}
+section p {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
 }
 
 footer {

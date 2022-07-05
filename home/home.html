@@ -5,56 +5,62 @@
 		<title>Biro Livro</title>
 
 		<link rel="stylesheet" href="../reset.css">
-		<link rel="stylesheet" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/cabecalho/cabecalho.css">
+        <link rel="stylesheet" href="./css/livroAtual/livroAtual.css">
+        <link rel="stylesheet" href="./css/comentario/comentario.css">
+        <link rel="stylesheet" href="./css/proximosLivros/proximasListas.css">
+        <link rel="stylesheet" href="./css/rodape/rodape.css">
+        
 	</head>
-    <body>
-        <header>
-            <div class="caixa">
+    <body style="background: #E0E0E0;">
+        <header class="cabecalho">
+            <div>
                 <div>
-                    <img src="logo.png">
-                    <h1>Biro Livro</h1>
+                    <img class="cabecalho__logo" src="logo.png">
+                    <h1 class="cabecalho__titulo">Biro Livro</h1>
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="../historico/historico.html">Histórico</a></li>
-                        <li><a href="../quemSomos/quemSomos.html">Quem somos</a></li>
+                <nav class="cabecalho__menu">
+                    <ul class="cabecalho__lista">
+                        <li class="cabecalho__item"><a class="cabecalho__link" href="home.html">Home</a></li>
+                        <li class="cabecalho__item"><a class="cabecalho__link" href="../historico/historico.html">Histórico</a></li>
+                        <li class="cabecalho__item"><a class="cabecalho__link" href="../quemSomos/quemSomos.html">Quem somos</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
 
-        <div class="principal">
-            <h1 class="titulo-principal">Livro da Semana</h1>
-            <section>
+        <section>
+            <h1 class="livroAtual__titulo">Livro da Semana</h1>
+            <div class="livroAtual">
                 <div>
-                    <img src="livro.jpg" alt="">
+                    <img class="livroAtual__imagem" src="livro.jpg" alt="">
                 </div>               
-                <div class="descricao-lista">
-                    <p1>Nome:</p1>
-                    <p2>Waterloo</p2>
+                <div class="livroAtual__lista">
+                    <p1 class="livroAtual__pergunta" >Nome:</p1>
+                    <p2 class="livroAtual__resposta">Waterloo</p2>
                 </div>
-                <div class="descricao-lista">
-                    <p1>Autor:</p1>
-                    <p2>Bernard Crorwell</p2>
+                <div class="livroAtual__lista">
+                    <p1 class="livroAtual__pergunta">Autor:</p1>
+                    <p2 class="livroAtual__resposta">Bernard Crorwell</p2>
                 </div>
-                <div class="descricao-lista">
-                    <p1>Páginas:</p1>
-                    <p2>364</p2>
+                <div class="livroAtual__lista">
+                    <p1 class="livroAtual__pergunta">Páginas:</p1>
+                    <p2 class="livroAtual__resposta">364</p2>
                 </div>
-                <div class="descricao-lista">
-                    <p1>Sobre o livro:</p1>
-                        <p>Publicado em comemoração ao bicentenário da batalha, Waterloo é uma história tensa e 
+                <div class="livroAtual__lista">
+                    <p1 class="livroAtual__pergunta">Sobre o livro:</p1>
+                        <p class="livroAtual__descricao">Publicado em comemoração ao bicentenário da batalha, Waterloo é uma história tensa e 
                             emocionante de heroísmo e tragédia – e da batalha que determinou o destino da Europa.
                             </p> 
-                        <p>
+                        <p class="livroAtual__descricao">
                             A batalha de Waterloo é uma das mais estudadas da História, e sobre a qual provavelmente 
                             mais se escreveu. É uma história de suspense, que surpreende não importa quantas vezes se 
                             leia sobre os eventos daquele dia. Sabemos como ela termina, mas, como todas as boas 
                             histórias, esta também merece repetição.
                         </p>
-                        <p>
+                        <p class="livroAtual__descricao">
                             Em seu primeiro trabalho de não ficção, Bernard Cornwell combina suas habilidades narrativas
                              com uma pesquisa histórica meticulosamente construída para apresentar a descrição de cada 
                              momento dramático – da fuga de Napoleão de Elba até o resultado do massacre nos três campos
@@ -62,66 +68,68 @@
                         </p>
 
                 </div>                   
-            </section>
-        </div>  
-        <div>
-            <h1 class="comentario-titulo">Comentarios do grupo</h1>
-            <div class="campo-comentario">
-                <p> " O livro conta em detalhes as lutas travadas, as mortes, as estratėgias dos grandes 
+            </div>
+        </section> 
+        <hr>  
+        <div class="comentario">
+            <h1 class="comentario__titulo">Comentarios do grupo</h1>
+            <div class="comentario__box">
+                <p class="comentario__paragrafo"> " O livro conta em detalhes as lutas travadas, as mortes, as estratėgias dos grandes 
                     líderes militares que levaram à derrota de Napoleão nos campos de batalha de Waterloo." </p>
             </div>
 
-            <div class="campo-comentario">
-                <p> " A descricAo da batalha cheira a pólvora de mosquete. Impressiona os detalhes de ambos
+            <div class="comentario__box">
+                <p class="comentario__paragrafo"> " A descricAo da batalha cheira a pólvora de mosquete. Impressiona os detalhes de ambos
                      os comandantes em suas táticas de guerra." </p>
             </div>
 
-            <div class="campo-comentario">
-                <p> " Bernard Cornwell sempre consegue superar minhas expectativas. E olhem que elas já eram 
+            <div class="comentario__box">
+                <p class="comentario__paragrafo"> " Bernard Cornwell sempre consegue superar minhas expectativas. E olhem que elas já eram 
                     bem altas, antes de ler essa obra prima. Se um dia for feito um épico hollywoodiano sobre 
                     Waterloo, que esse livro seja a inspiração!!." </p>
             </div>
         </div>
 
-
+        <hr>  
         <div class="proximos-livros">
-            <h1 class="titulo-principal">Próximos livros</h1>
+            <h1 class="proximosLivros__titulo">Próximos livros</h1>
             <div>
-                <div class="livro-e-titulo">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/51p1stCQ8YL._SX335_BO1,204,203,200_.jpg" alt="">
-                    <h1>O Silêncio dos inocentes</h1>
+                <div class="proximosLivros__lista">
+                    <img class="proximosLivros__imagem" src="https://images-na.ssl-images-amazon.com/images/I/51p1stCQ8YL._SX335_BO1,204,203,200_.jpg" alt="">
+                    <h1 class="proximosLivros__tituloLivro">O Silêncio dos inocentes</h1>
                 </div>
 
-                <div class="livro-e-titulo">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/413th2NQc8L._SY344_BO1,204,203,200_QL70_ML2_.jpg" >
-                    <h1>A paciente silenciosa</h1>
+                <div class="proximosLivros__lista">
+                    <img  class="proximosLivros__imagem" src="https://images-na.ssl-images-amazon.com/images/I/413th2NQc8L._SY344_BO1,204,203,200_QL70_ML2_.jpg" >
+                    <h1 class="proximosLivros__tituloLivro">A paciente silenciosa</h1>
                 </div>
 
-                <div class="livro-e-titulo">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/51+cqcKaWgL._SX346_BO1,204,203,200_.jpg" >
-                    <h1>Nevernight</h1>
+                <div class="proximosLivros__lista">
+                    <img class="proximosLivros__imagem" src="https://images-na.ssl-images-amazon.com/images/I/51+cqcKaWgL._SX346_BO1,204,203,200_.jpg" >
+                    <h1 class="proximosLivros__tituloLivro">Nevernight</h1>
                 </div>
                 
-                <div class="livro-e-titulo">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/5179YIDfw5L._SY344_BO1,204,203,200_QL70_ML2_.jpg" >
-                    <h1>Battle Royale</h1>
+                <div class="proximosLivros__lista">
+                    <img class="proximosLivros__imagem" src="https://images-na.ssl-images-amazon.com/images/I/5179YIDfw5L._SY344_BO1,204,203,200_QL70_ML2_.jpg" >
+                    <h1 class="proximosLivros__tituloLivro">Battle Royale</h1>
                 </div>
 
-                <div class="livro-e-titulo">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/419unNk3A8S._SY344_BO1,204,203,200_QL70_ML2_.jpg" >
-                    <h1>A lógica do Cisne Negro</h1>
+                <div class="proximosLivros__lista">
+                    <img class="proximosLivros__imagem" src="https://images-na.ssl-images-amazon.com/images/I/419unNk3A8S._SY344_BO1,204,203,200_QL70_ML2_.jpg" >
+                    <h1 class="proximosLivros__tituloLivro">A lógica do Cisne Negro</h1>
                 </div>
 
-                <div class="livro-e-titulo">
-                    <img src="https://images-submarino.b2w.io/produtos/134309020/imagens/livro-o-que-aconteceu-com-annie/134309020_1_large.jpg" >
-                    <h1> O que aconteceu com Annie </h1>
+                <div class="proximosLivros__lista">
+                    <img class="proximosLivros__imagem" src="https://images-submarino.b2w.io/produtos/134309020/imagens/livro-o-que-aconteceu-com-annie/134309020_1_large.jpg" >
+                    <h1 class="proximosLivros__tituloLivro"> O que aconteceu com Annie </h1>
                 </div>
 
             </div>
         </div>
-        <footer>
-			<img src="logo.png">
-			<p>&#128218; Biro Livro - Sense 2020</p>
+        <hr>  
+        <footer class="rodape">
+			<img class="rodape__imagem" src="logo.png">
+			<p class="rodape__texto">&#128218; Biro Livro - Sense 2020</p>
 		</footer>
     </body>
 </html>

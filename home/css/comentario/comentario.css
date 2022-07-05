@@ -1,0 +1,35 @@
+.comentario__titulo {
+    text-align: center;
+    margin: 10px 0 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.comentario__box {
+    width: 300px;
+    border: 1px solid grey;
+    margin: 20px 70px;
+    border-radius: 10px;
+    background: whitesmoke;
+    box-shadow: 5px 5px slategrey;
+    display: inline-block;
+    
+    
+}
+.comentario__box:hover {
+    border: 1px solid #C78C19;
+}
+
+.comentario__paragrafo {
+    margin: 10px;
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    
+    
+}
+
+.comentario__paragrafo:hover {
+    color: brown;
+}

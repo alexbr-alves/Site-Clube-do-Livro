@@ -1,0 +1,39 @@
+.livroAtual {
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.livroAtual__titulo {
+    text-align: center;
+    margin: 10px 0 20px 0;
+    font-size: 30px;
+    font-weight: bold;  
+
+}
+
+
+.livroAtual__imagem {
+    width: 300px;
+	margin: 0 20px 20px 20px;
+    float: left;
+    top: 0%;
+}
+
+.livroAtual__lista{
+    padding-left: 20px;
+    font-size: 20px;
+   
+}
+.livroAtual__pergunta {
+    font-weight: bold;
+}
+
+.livroAtual__resposta {
+    font-style: italic;
+}
+.livroAtual__descricao {
+    font-size: 20px;
+    padding: 0px 20px 7px 0 ; 
+    font-style: italic;
+}

@@ -1,0 +1,47 @@
+.cabecalho {
+    padding: 20px 0;
+    background: url("../../fundo.jpg");
+    background-position: 100%;
+}
+
+.cabecalho__logo {
+    width: 220px;
+    height: 220px;
+    margin-left: 100px;
+}
+.cabecalho__titulo{
+    text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+    padding: 10px 0 0 20px;
+    margin-left: 100px;
+}
+
+.cabecalho__lista {
+	position: absolute;
+	top: 235px;
+	right: 0;
+    position: absolute;
+    display: inline block;
+    margin-right: 100px;
+}
+
+.cabecalho__item {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+.cabecalho__link {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.cabecalho__link:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
