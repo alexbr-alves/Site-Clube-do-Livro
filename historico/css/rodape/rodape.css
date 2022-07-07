@@ -1,0 +1,13 @@
+.rodape {
+	text-align: center;
+	padding: 40px 0;
+}
+
+.rodape__imagem{
+    width: 80px;
+    height: 80px;
+    padding: 0 0 10px;
+}
+.rodape__texto {
+    font-weight: bold;
+}

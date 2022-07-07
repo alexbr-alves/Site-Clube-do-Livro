@@ -6,30 +6,31 @@
 
 		<link rel="stylesheet" href="../reset.css">
 		<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./css/cabecalho/cabecalho.css">
+        <link rel="stylesheet" href="./css/quemSomos/quemSomos.css">
+        <link rel="stylesheet" href="./css/rodape/rodape.css">
+
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	</head>
     <body>
-        <header>
-            <div class="caixa">
+        <header class="cabecalho">
+            <div>
                 <div>
-                    <img src="../assets/logo.png">
-                    <h1>Biro Livro</h1>
+                    <img class="cabecalho__logo" src="../assets/logo.png">
+                    <h1 class="cabecalho__titulo">Biro Livro</h1>
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="../home/home.html">Home</a></li>
-                        <li><a href="../historico/historico.html">Histórico</a></li>
-                        <li><a href="quemSomos.html">Quem somos</a></li>
+                <nav class="cabecalho__menu">
+                    <ul class="cabecalho__lista">
+                        <li class="cabecalho__item"><a class="cabecalho__link" href="home.html">Home</a></li>
+                        <li class="cabecalho__item"><a class="cabecalho__link" href="../historico/historico.html">Histórico</a></li>
+                        <li class="cabecalho__item"><a class="cabecalho__link" href="../quemSomos/quemSomos.html">Quem somos</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <section class="fotos">
-
-        </section >
-        <section>
-            <h1 class="titulo-principal">Como surgiu o grupo? </h1>
-            <p>
+        <section class="quemSomos">
+            <h1 class="quemSomos__titulo">Como surgiu o grupo? </h1>
+            <p class="quemSomos__descricao">
                 Somos um grupo de amigos quem em meio a pandemia resolveu criar um grupo de leitura. 
                 No início a intensão era encurtar a distançia criada pela pandemia com uma atividade em comum a todo. 
                 Então a pandemia foi embora, e aqui estamos. Desde de 2019 que regularmente nos encontramos aos 
@@ -37,27 +38,27 @@
             </p>
             <hr >
 
-            <h1 class="titulo-principal">Como somos as reuniões?  </h1>
-            <p>
+            <h1 class="quemSomos__titulo">Como somos as reuniões?  </h1>
+            <p class="quemSomos__descricao">
                 As reuniões são bem dinâmicas e divertidas, principalemente pela nossa capacidade de fugir
                  do assunto pra falar alguma m&rda. Mas no final, conseguimos discutir os tópicos mais 
                  importantes do livro.
             </p>
-            <p>
+            <p class="quemSomos__descricao">
                 Ah, e tem um cara que urina no meio da reuniao sem colocar o microfone no mudo. 
                 Essa é a parte chata da reunião.
             </p>
             <hr >
-            <h1 class="titulo-principal">O que é Biro Livro? </h1>
-            <p>
+            <h1 class="quemSomos__titulo">O que é Biro Livro? </h1>
+            <p class="quemSomos__descricao">
                 Então... Somos um pouco idiotas.
             </p>
-            <p>Então achamos Biro Livro era um nome engraçado. E ficou!</p>
+            <p class="quemSomos__descricao">Então achamos Biro Livro era um nome engraçado. E ficou!</p>
             <hr >
         </section>
-        <footer>
-			<img src="../assets/logo.png">
-			<p>&#128218; Biro Livro - Sense 2020</p>
+        <footer class="rodape">
+			<img class="rodape__imagem" src="../assets/logo.png">
+			<p class="rodape__texto">&#128218; Biro Livro - Sense 2020</p>
 		</footer>
     </body>
 </html>

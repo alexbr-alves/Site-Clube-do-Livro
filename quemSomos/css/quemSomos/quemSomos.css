@@ -1,0 +1,16 @@
+.quemSomos {
+    position: relative;
+        width: 940px;
+        margin: 0 auto;
+}
+.quemSomos__titulo {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 30px;
+    font-weight: bold;  
+}
+ .quemSomos__descricao {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
