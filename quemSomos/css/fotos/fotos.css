@@ -1,0 +1,39 @@
+.fotos {
+    text-align: center;
+    margin: 0 auto;
+    background: linear-gradient( #606060, #A0A0A0, #C0C0C0 );
+    
+}
+
+.fotos__lista {
+    display: inline-block;
+    margin: 20px;
+}
+
+.fotos__imagem {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 5px solid #404040;
+    transition: 1s;
+}
+
+.fotos__imagem:hover {
+    border:5px solid brown;
+
+}
+
+
+.fotos__titulo {
+    font-weight: bold;
+    font-style: italic;
+    font-size:x-large;
+    transition: 1s;
+    color: #404040;
+}
+
+.fotos__titulo:hover {
+    color: brown;
+    cursor: default;
+    text-decoration: underline;
+}
